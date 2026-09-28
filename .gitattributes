@@ -1,0 +1,31 @@
+# Normalize line endings for text files
+* text=auto
+
+# LabVIEW binary files: never merge or change line endings
+*.vi      binary
+*.vit     binary
+*.vim     binary
+*.ctl     binary
+*.ctt     binary
+*.llb     binary
+*.lvlibp  binary
+*.rtm     binary
+*.vip     binary
+
+# LabVIEW XML files: keep CRLF as LabVIEW writes them and do not auto-merge
+*.lvproj  text eol=crlf merge=binary
+*.lvlib   text eol=crlf merge=binary
+*.lvclass text eol=crlf merge=binary
+*.xctl    text eol=crlf merge=binary
+*.vipb    text eol=crlf merge=binary
+*.vipc    binary
+
+# Translation files are UTF-16 LE, which git cannot diff as text
+src/**/*.json binary
+
+# Other binary assets
+*.docx    binary
+*.pdf     binary
+*.png     binary
+*.ico     binary
+*.bmp     binary

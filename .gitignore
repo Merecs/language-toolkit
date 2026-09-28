@@ -1,0 +1,25 @@
+# LabVIEW
+*.aliases
+*.lvlps
+*.lvbitx
+*.lvtest
+.lvcompare
+
+# Internal notes
+/TODO-Release.md
+*.pptx
+
+# Generated documentation (Antidoc)
+/src/Antidoc-Output/
+
+# Build output (VIPM packages, packed libraries, executables)
+/builds/
+/_downloads/
+*.vip
+*.lvlibp
+
+# OS and editor files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/

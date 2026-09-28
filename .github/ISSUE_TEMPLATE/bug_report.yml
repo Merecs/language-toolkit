@@ -1,0 +1,50 @@
+name: Bug report
+description: Something does not work as described
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If possible, attach a small example VI (zipped, saved in LabVIEW 2019 or your version).
+      placeholder: |
+        1. Add a Tab control to the VI
+        2. Translate the page names to Russian
+        3. Call Translate front panels.vi
+    validations:
+      required: true
+  - type: input
+    id: labview
+    attributes:
+      label: LabVIEW version and bitness
+      placeholder: LabVIEW 2021 SP1, 64-bit
+    validations:
+      required: true
+  - type: input
+    id: toolkit
+    attributes:
+      label: Toolkit version
+      description: VIPM package version or git commit
+      placeholder: 1.0.0.1
+    validations:
+      required: true
+  - type: dropdown
+    id: charset
+    attributes:
+      label: Language type
+      options:
+        - ANSI (western)
+        - Unicode
+        - Both / not relevant
+  - type: input
+    id: control
+    attributes:
+      label: Affected control type
+      placeholder: Multicolumn Listbox
