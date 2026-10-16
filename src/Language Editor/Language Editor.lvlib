@@ -41,6 +41,7 @@
 		<Item Name="Format Data for ANSI-Export.vi" Type="VI" URL="../private/Format Data for ANSI-Export.vi"/>
 		<Item Name="Format Data for Unicode-Export.vi" Type="VI" URL="../private/Format Data for Unicode-Export.vi"/>
 		<Item Name="Format EoL for CSV.vi" Type="VI" URL="../private/Format EoL for CSV.vi"/>
+		<Item Name="Format Data for Unicode-Import.vi" Type="VI" URL="../private/Format Data for Unicode-Import.vi"/>
 		<Item Name="Format EoL for CSV(Unicode).vi" Type="VI" URL="../private/Format EoL for CSV(Unicode).vi"/>
 		<Item Name="Map to List of Ctrl.vi" Type="VI" URL="../private/Map to List of Ctrl.vi"/>
 		<Item Name="Import from text file.vi" Type="VI" URL="../private/Import from text file.vi"/>
