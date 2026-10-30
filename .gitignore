@@ -18,6 +18,9 @@
 *.vip
 *.lvlibp
 
+# Generated example exports
+/src/Examples/*.txt
+
 # OS and editor files
 Thumbs.db
 Desktop.ini

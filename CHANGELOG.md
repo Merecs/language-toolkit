@@ -8,6 +8,17 @@ number for the build (`major.minor.patch.build`).
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-30
+
+### Added
+
+- Unicode language support for export and import.
+
+### Fixed
+
+- Removed extra quotation marks from Ring elements during import.
+- Preserved untranslated controls in the JSON when changing the language.
+
 ## [1.0.0] - 2026-09-28
 
 First public release under the Apache License 2.0.
@@ -20,5 +31,6 @@ First public release under the Apache License 2.0.
 - Example `Example_Simple.vi` with its translation file.
 - User manual (`docs/manual.md`).
 
-[Unreleased]: https://github.com/Merecs/language-toolkit/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/Merecs/language-toolkit/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/Merecs/language-toolkit/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/Merecs/language-toolkit/releases/tag/v1.0.0
